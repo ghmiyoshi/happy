@@ -50,4 +50,4 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para ace
 
 ---
 
-<p align="center">Desenvolvido por Gabriel Hideki</p>
+<p align="center">Desenvolvido por Gabriel Hideki :octocat: </p>
