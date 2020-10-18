@@ -1,8 +1,6 @@
 # [App] Happy
 [![react-native](https://img.shields.io/badge/react--native-0.63.2-61dafb?style=flat-square&logo=react)](https://reactnative.dev/)
-[![styled-components](https://img.shields.io/badge/styled_components-5.2.0-db7b86?style=flat-square&logo=styled-components)](https://styled-components.com/)
 [![eslint](https://img.shields.io/badge/eslint-7.11.0-4b32c3?style=flat-square&logo=eslint)](https://eslint.org/)
-[![airbnb-style](https://flat.badgen.net/badge/style-guide/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 [![expo](https://img.shields.io/badge/expo-39.0.3-000000?style=flat-square&logo=expo)](https://expo.io/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/DiegoVictor/bethehero-app/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)<br>
@@ -15,7 +13,7 @@
   * [OS](#os)
 # Screenshots
 Click to expand.<br>
-<img src="https://raw.githubusercontent.com/DiegoVictor/happy-app/master/screenshots/map.png" width="32%" />
+<img src="https://user-images.githubusercontent.com/36977180/96375391-2ffb0280-114f-11eb-9313-59f168e0723f.png" width="32%" />
 
 # Installing
 Easy peasy lemon squeezy:
