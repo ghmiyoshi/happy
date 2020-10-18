@@ -21,6 +21,10 @@ function Landing() {
         <div className="location">
           <strong>Suzano</strong>
           <span>São Paulo</span>
+          
+          <Link  to="/login" className="access-app">
+            <span>Acesso restrito</span>
+          </Link>
         </div>
 
         <Link  to="/app" className="enter-app">
