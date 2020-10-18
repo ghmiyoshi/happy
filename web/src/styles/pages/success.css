@@ -1,0 +1,120 @@
+#success {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+
+    background:#37C77F;
+}
+
+#success .content-wrapper{
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 680px;
+
+
+    background: url('../../images/success.svg') no-repeat 100%  center;
+    
+    background-size: contain;
+}
+
+#success .content-wrapper h1 {
+    position: absolute;
+    left: 21.94%;
+    right: 60.76%;
+    top: 29.39%;
+    bottom: 60.85%;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 80px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#success .content-wrapper main{
+    max-width: 350px;
+
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+#success .content-wrapper h1{
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#success .content-wrapper main span{
+    position: absolute;
+    left: 16.94%;
+    right: 55.83%;
+    top: 43.05%;
+    bottom: 44.51%;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.success-app{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 170px;
+    width: 222px;
+    height: 56px;
+
+    background: #31B272;
+    border-radius: 20px;
+    
+    text-decoration: none;
+
+    transition: background-color 0.2s ease-in-out;
+}
+
+.success-app span{
+    top: 500px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 55px;
+    padding-left: 20px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.success-p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 55px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.success-app:hover {
+ background: #3CDC8C;
+}

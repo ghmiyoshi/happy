@@ -1,66 +1,62 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { FiArrowLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import { FiArrowLeft, FiPlus } from 'react-icons/fi';
-import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
-import map from '../images/map.svg';
+import Img1 from '../images/logotipo.svg';
 
-import '../styles/pages/login.css';
-import mapIcon from '../utils/mapIcon';
-import logoImg from '../images/logo.svg';
-import api from '../services/api';
+import '../styles/pages/login.css'
 
-interface Orphanage {
-    id: number;
-    latitude: number;
-    longitude: number;
-    name: string;
-}
-
-function Login() {
-    return(
-        <div id="page-map">
+function LoginPage() {
+    return (
+        <div id="page-login">
             <aside>
-                <Link  to="/" className="enter-app">
-                        <FiArrowLeft size={26} color="#29B6D1"></FiArrowLeft>
-                </Link>
-                <header>
-                    <img src={logoImg} alt="Happy"/>
-                    <strong>Suzano</strong>
-                    <span>São Paulo</span>
-                </header>
+                <form action="/dashboard" className="login-form">
+                    <h1>Fazer Login</h1>
+                    <div className="input-block">
+                        <label htmlFor="email">E-mail</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+
+                    <div className="input-block">
+                        <label htmlFor="password">Senha</label>
+                        <input type="password" name="password" id="password" />
+                    </div>
+
+                    <div className="checkbox">
+                        <div className="checkbox-input">
+                            <input type="checkbox" name="remeber" id="remember" />
+                            <label htmlFor="remember">Lembrar me</label>
+                        </div>
+                        <Link
+                            to='/forget-password' className='forget-password'>
+                            Esqueci minha senha
+                        </Link>
+                    </div>
+
+
+                    <Link to='#' className='login-button'>Entrar</Link>
+                </form>
+                    <Link to='/' className='back-app'>
+                        <FiArrowLeft size={24} color="#15C3D6" />
+                    </Link>
             </aside>
 
             <main>
-                <form className="login-form">
-            <fieldset>
-            <legend>Fazer login</legend>
+                <div className="logo">
+                    <img src={Img1} alt="happy" />
 
-            <div className="input-block">
-              <label htmlFor="name">E-mail</label>
-              <input 
-                id="name"
-                type="email" 
-                />
-            </div>
+                    <div className="location">
+                        <strong>Suzano</strong>
+                        <span>São Paulo</span>
+                    </div>
+                </div>
 
-            <div className="input-block">
-              <label htmlFor="name">Senha</label>
-              <input 
-                id="name"
-                type="password" 
-                />
-            </div>
-         
-          </fieldset>
 
-          <button className="confirm-button" type="submit">
-            Entrar
-          </button>
-        </form>
-      </main>
+            </main>
+
+
         </div>
-    );
+    )
 }
 
-export default Login;
+export default LoginPage;
